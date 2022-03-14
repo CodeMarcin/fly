@@ -1,3 +1,7 @@
+### Live Demo
+
+https://codemarcin.github.io/fly/
+
 Linie lotnicze muszą udostępnić swoim klientom loty do każdego zakątka, dlatego potrzebują aplikacji, która na to im pozwoli. Klient musi mieć możliwość przesiadki, gdy nie ma bezpośredniego połączenia.
 
 Zadaniem dewelopera jest przygotowanie następujących funkcjonalności:
