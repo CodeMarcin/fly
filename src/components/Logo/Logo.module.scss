@@ -1,0 +1,14 @@
+@import '../../styles//Variables.scss';
+
+.logo {
+  font-family: $fontThree;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+
+  &::after {
+    content: "✈";
+    color: $colorFour;
+    padding-left: 0.5rem;
+  }
+}

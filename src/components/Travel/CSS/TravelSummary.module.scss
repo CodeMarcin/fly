@@ -1,0 +1,32 @@
+.travel__summary {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem 0;
+
+  .travel__summary-connection {
+    width: 100%;
+    display: flex;
+  }
+
+  .travel__summary-airport {
+    display: block;
+    font-weight: 900;
+    color: $colorOne;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+
+    &::after {
+      content: "->"; 
+      margin-left: 1rem;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+  
+
+}
+

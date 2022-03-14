@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { MainWrapper } from './components/Wrappers/MainWrapper';
+import { Top } from './components/Top/Top';
+import { Logo } from './components/Logo/Logo';
+import { Travel } from './components/Travel/Travel';
+
+import './styles/Clear.css';
+import './styles/Core.css';
+import { TravelContextProvider } from './components/Contexts/TravelContex';
+import { BottomWrapper } from './components/Wrappers/BottomWrapper';
+import { AddDestination } from './components/Buttons/AddDestination';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TravelContextProvider>
+        <MainWrapper>
+          <Top>
+            <Logo />
+          </Top>
+
+          <Travel> </Travel>
+        </MainWrapper>
+ 
+      </TravelContextProvider>
     </div>
   );
 }
