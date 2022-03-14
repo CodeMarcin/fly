@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fly/static/css/main.2a963671.css",
+    "main.js": "/fly/static/js/main.3fb7356a.js",
+    "index.html": "/fly/index.html",
+    "main.2a963671.css.map": "/fly/static/css/main.2a963671.css.map",
+    "main.3fb7356a.js.map": "/fly/static/js/main.3fb7356a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a963671.css",
+    "static/js/main.3fb7356a.js"
+  ]
+}
